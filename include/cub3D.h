@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 18:25:50 by atashiro          #+#    #+#             */
-/*   Updated: 2025/10/04 18:28:41 by atashiro         ###   ########.fr       */
+/*   Updated: 2025/10/04 18:50:10 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,20 @@
 # define A 97
 # define D 100
 # define ESC 65307
+
+typedef struct s_map
+{
+	char	**map;
+	size_t	width;
+	size_t	height;
+}	t_map;
+
+typedef struct s_game
+{
+	t_map		map;
+	void		*mlx_ptr;
+	void		*win_ptr;
+}	t_game;
 
 
 
