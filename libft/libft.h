@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:50:45 by atashiro          #+#    #+#             */
-/*   Updated: 2025/05/15 16:11:51 by atashiro         ###   ########.fr       */
+/*   Updated: 2025/10/06 15:53:55 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <limits.h>
+# include "get_next_line.h"
 
 typedef struct s_list
 {

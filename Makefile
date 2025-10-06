@@ -7,7 +7,7 @@ MINILIBX = $(MINILIBX_DIR)/libmlx.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = src/main.c
+SRCS = src/validate.c 
 OBJS = $(SRCS:.c=.o)
 
 INCLUDES = -I$(LIBFT_DIR) -I$(MINILIBX_DIR)
